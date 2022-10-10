@@ -7,7 +7,7 @@ from telethon import TelegramClient, sync, events
 api_id = 17820169
 api_hash = '256014d33cf1a1f7d749050478df24c3'
 client = TelegramClient('nu_science', api_id=api_id, api_hash=api_hash)
-input_array = ['@aitu_science', "@mynreden"]
+input_array = ['@aitu_science']
 
 def log_info():
     logging.basicConfig(
